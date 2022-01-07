@@ -11,6 +11,9 @@
 
   <link rel="stylesheet" href="style.css" />
 
+  <!-- materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
@@ -25,23 +28,43 @@
 </head>
 
 <body>
-  <main>
-    <img id="Equilibrium" src="images/image-equilibrium.jpg" width="200" alt="colorful cube" />
-
-    <h1>Equilibrium #3429</h1>
-
-    <h2>Our Equilibrium collection promotes balance and calm.</h2>
-
-    <h2>0.041 ETH</h2>
-    <h2>3 days left</h2>
-
-    <h3>Creation of Jules Wyvern</h3>
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Michelle Berta</a>.
+  <div class="row">
+    <div class="col s12 m12 l6 offset-l3">
+      <div class="card" class="z-depth-5">
+        <div class="card-image">
+          <img src="images/image-equilibrium.jpg" alt="colorful cube">
+        </div>
+        <div class="card-content">
+          <span class="card-title">Equilibrium #3429</span>
+          <h5>Our Equilibrium collection promotes balance and calm.</h5>
+          <div class="row">
+            <h6>
+              <div class="col s6 m6 l6" id="left-column">
+                <img src="images/icon-ethereum.svg" alt="diamond icon" class="circle responsive-img"> 0.041ETH
+              </div>
+              <div class="col s6 m6 l6" id="right-column"><img src="images/icon-clock.svg" alt="clock face icon" class="circle responsive-img"> 3 days left</div>
+            </h6>
+          </div>
+          <div class="card-action row">
+            <div class="col s2 m2 l2"> <img src="images/image-avatar.png" alt="" class="circle responsive-img" id="avatar"> </div>
+            <div class="col s10 m10 l10">
+              <div class="valign-wrapper">
+                <h6>Creation of Jules Wyvern</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Michelle Berta</a>.
+      </div>
     </div>
-  </main>
+  </div>
+  </div>
+
+  <!-- materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>
