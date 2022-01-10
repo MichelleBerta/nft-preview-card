@@ -15,6 +15,10 @@ body {
   padding: 3%;
   background-color: #052853;
 }
+/* 
+.active {
+  color: #35c6c8;
+} */
 
 h5,
 h6 {
@@ -31,4 +35,8 @@ h6 {
 
 .attribution {
   color: #465d78;
+}
+
+#avatar {
+  border: 1px solid #d4dce7;
 }
